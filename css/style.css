@@ -1,6 +1,7 @@
 /* start my framework */
 body {
     font-family: 'Open Sans', sans-serif;
+    height: 5000px
 }
 .container {
     width: 1200px;
@@ -287,3 +288,41 @@ body {
     border: 1px solid #f7600e
 }
 /* end our-work  */
+/* start testimonials */
+.testim {
+    background: url("../images/testimonials/woman-690036.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.testim .client {
+    padding: 50px 0;
+    color: #fff;
+    font-size: 20px;
+}
+.testim .client img {
+    border-radius: 50%;
+}
+.testim .client p {
+    line-height: 2;
+    font-style: italic
+}
+.testim .fa-chevron-right,
+.testim .fa-chevron-left {
+    position: absolute;
+    top: 50%;
+    color: #999;
+    cursor: pointer;
+}
+.testim .fa-chevron-right:hover,
+.testim .fa-chevron-left:hover {
+    color: #f7600e
+}
+.testim .fa-chevron-right {
+    right: 0
+}
+.testim .fa-chevron-left {
+    left: 0
+}
+/* start testimonials */
