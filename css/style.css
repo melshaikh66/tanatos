@@ -214,7 +214,7 @@ body {
 .our-work h2 ~ p {
     line-height: 2;
     margin: 10px 0 40px;
-    
+    color: #666
 }
 .our-work .item-box {
     overflow: hidden;
@@ -326,3 +326,62 @@ body {
     left: 0
 }
 /* start testimonials */
+/* start our team */
+.our-team {
+    padding: 50px 0;
+}
+.our-team h2 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.our-team h2 ~ p {
+    line-height: 2;
+    margin: 10px 0 40px;
+    color: #666
+}
+.our-team .the-team {
+    overflow: hidden;
+}
+.our-team .the-team .person {
+    float: left;
+    width: 24%;
+    margin-left: 1%;
+    overflow: hidden;
+    color: #888
+}
+.our-team .the-team .person:hover img {
+    filter: none;
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+}
+.our-team .the-team .person:hover {
+    color: #444;
+}
+.our-team .the-team .person img {
+    width: 266px;
+    height: 293px;
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+}
+.our-team .the-team .social-icons i {
+    color: #9da1a5;
+}
+.our-team .the-team .person:hover .fa-facebook {
+    color: #3b5998
+}
+.our-team .the-team .person:hover .fa-twitter {
+    color: #1da1f2
+}
+.our-team .the-team .person:hover .fa-google-plus {
+    color: #dd4b39
+}
+.our-team .the-team .person p {
+    font-size: 15px;
+}
+/* end our team */
