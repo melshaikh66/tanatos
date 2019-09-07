@@ -1,7 +1,12 @@
 /* start my framework */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body {
-    font-family: 'Open Sans', sans-serif;
-    height: 5000px
+    font-family: 'Open Sans', sans-serif; 
 }
 .container {
     width: 1200px;
@@ -70,6 +75,9 @@ body {
     left: 0;
     width: 100%
 }
+.header .navbar .logo {
+    font-size: 24px 
+}
 .header .navbar .links {
     float: right
 }
@@ -118,9 +126,9 @@ body {
 .header .arrow i {
     border: 2px solid #909090;
     border-radius: 50%;
-    width: 33px;
-    height: 33px;
-    line-height: 33px;
+    width: 40px;
+    height: 40px;
+    line-height: 32px;
     cursor: pointer
 }
 
@@ -201,7 +209,7 @@ body {
     margin-left: 20px;
     font-size: 14px
 }
-/* start subscribe */
+/* end subscribe */
 /* start our-work  */
 .our-work {
     padding: 50px 0;
@@ -385,3 +393,86 @@ body {
     font-size: 15px;
 }
 /* end our team */
+/* start contact form */
+.contact {
+    background: url("../images/contact/01.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contact .overlay {
+    padding: 50px 0;
+    color: #fff;
+}
+.contact form {
+    width: 700px;
+    text-align: center;
+    margin: 50px auto;
+    overflow: hidden
+}
+.contact form input[type="text"],
+.contact form input[type="email"] {
+    width: 48%;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px
+}
+.contact form input[type="text"] {
+    float: left;
+}
+.contact form input[type="email"] {
+    float: right
+}
+.contact form textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 140px;
+    border: 1px solid #ccc;
+    border-radius: 10px
+}
+.contact form .info {
+    overflow: hidden;
+    margin-top: 20px  
+}
+.contact form .info button {
+    float: left;
+    padding: 10px;
+    width: 200px;
+    background-color: #f7600e;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 14px
+}
+.contact form .info .form-icons {
+    float: right;
+    font-size: 25px
+}
+.contact form .info .form-icons .fa-facebook {
+    color: #3b5998
+}
+.contact form .info .form-icons .fa-twitter {
+    color: #1da1f2
+}
+.contact form .info .form-icons .fa-google-plus {
+    color: #dd4b39
+}
+/* end contact form */
+/* start footer */
+.footer {
+    background-color: #3b434c;
+    color: #fff;
+    overflow: hidden;
+    padding: 30px 0
+}
+.footer .copyright {
+    float: left
+}
+.footer .design {
+    float: right
+}
+/* end footer */

@@ -1,7 +1,11 @@
 $(function() {
   "use strict";
   // trigger nice scroll
-  $("html").niceScroll();
+  $("html").niceScroll({
+    cursorcolor: "#f7600e",
+    cursorwidth: "7px",
+    cursorborder: "1px solid #f7600e"
+  });
 
   // adjust header height
   $(".header").height($(window).height());
@@ -12,6 +16,14 @@ $(function() {
     $("html, body").animate(
       {
         scrollTop: $(".feat").offset().top
+      },
+      1000
+    );
+  });
+  $(".hire").click(function() {
+    $("html, body").animate(
+      {
+        scrollTop: $(".our-team").offset().top
       },
       1000
     );
